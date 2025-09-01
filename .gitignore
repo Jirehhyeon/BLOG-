@@ -1,0 +1,61 @@
+# Environment Variables
+.env
+.env.local
+.env.production
+
+# Docker Volumes
+postgres_data/
+n8n_data/
+redis_data/
+grafana_data/
+prometheus_data/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
+vendor/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Backup Files
+*.sql
+*.tar.gz
+*.backup
+backup/
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Monitoring
+monitoring/data/
+
+# Credentials (Extra Safety)
+credentials/
+secrets/
+*.pem
+*.key
+*.crt
+
+# OS Files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Test Files
+test-results/
+coverage/
+.nyc_output/
